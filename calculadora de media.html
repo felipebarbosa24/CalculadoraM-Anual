@@ -25,7 +25,6 @@
     <input type="number" name="u4" id="u4"> 
     <input type="button" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
-
     <script>
         function somar(){
             var u1 = window.document.getElementById("u1");
@@ -39,7 +38,7 @@
             var n4 = Number(u4.value);
             var total = n1 + n2 + n3 + n4;
             var m_anual = total / 4;
-            res.innerHTML = `A soma de todas unidades é <strong>${total}</strong> e sua média anual é de <strong>${m_anual}</strong>`;
+            res.innerHTML = `A soma das unidades é <strong>${total}</strong> e sua média anual é de <strong>${m_anual}</strong>`;
         }
     </script>
 </body>
